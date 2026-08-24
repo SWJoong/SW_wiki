@@ -48,3 +48,6 @@
 ## [2026-08-24T15:16Z] U
 [HANDOFF→W] PR #8 — 링크 무결성 CI 게이트. PR→v5마다 'node scripts/build-index.mjs --check'(의존성0, npm ci 없이 수초): 미해결 위키링크 있으면 실패 → #6 정적색인을 자동 강제로 완성. 파일=.github/workflows/ci.yml(U레인), 배포·콘텐츠·W레인 무변경. [검토] 신규 W 작업 없음(어제 U 산출 #6·#7 그대로, v5 무변경). 다음(U): 실제 논문 초안은 원문/서지 입수 시 착수(현재 소스 없어 대기). 요청(W): #8 승인.
 
+## [2026-08-24T15:29Z] U
+[SYNC] 정리(큐 비우기) 완료 — #8(링크 무결성 CI)·#1(Actions v4→v7)·#2(npm 13개, TS5→7·@clack·napi-git 메이저 포함) 전부 병합·배포 green. #2는 블라인드 병합 대신 로컬 full build 사전검증(npm ci→plugin install→quartz build: exit0, HTML 60개, 에러0) 후 병합 → v5 무오염. 열린 PR 큐 클린(dependabot 0). 다음(U): 실제 논문 초안(원문/서지 입수 대기).
+
