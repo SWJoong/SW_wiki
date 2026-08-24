@@ -5,6 +5,8 @@ year: 2022
 journal: "일본연구"
 doi: "10.15733/jast.2022.92.85"
 citekey: igweonhyi2022
+pdf: igweonhyi2022
+zotero: "zotero://select/items/@igweonhyi2022"
 keywords: [장해자, 서벌턴, 복자전승, 에비스신앙, 겐교제도, 전근대일본, 장애인식사]
 methods: [문헌고찰, 표상분석, 역사고찰, 개념사]
 population: [장해자, 맹인]

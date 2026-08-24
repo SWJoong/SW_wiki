@@ -5,6 +5,8 @@ year: 2023
 journal: "한국장애인복지학"
 doi: ""
 citekey: anhyeongjin2023
+pdf: anhyeongjin2023
+zotero: "zotero://select/items/@anhyeongjin2023"
 keywords: [개인예산제, 프레임분석, 자기주도지원, 사람중심실천, 복지서비스 시장화, 공공성, 개별유연화]
 methods: [프레임분석, 담론분석, 문헌고찰]
 population: [장애인, 발달장애인, 장애인단체]

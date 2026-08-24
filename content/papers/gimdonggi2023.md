@@ -5,6 +5,8 @@ year: 2023
 journal: "장애인복지연구"
 doi: "10.36064/koddi.2023.14.1.011"
 citekey: gimdonggi2023
+pdf: gimdonggi2023
+zotero: "zotero://select/items/@gimdonggi2023"
 keywords: [개인예산제, 운영모형, 이용자중심성, 급여범위, 델파이조사, 자기주도성]
 methods: [문헌고찰, 해외사례비교분석, 델파이조사, 운영모형제안]
 population: [장애인, 발달장애인, 정신장애인]

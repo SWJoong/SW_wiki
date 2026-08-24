@@ -5,6 +5,8 @@ year: 2020
 journal: "한국장애인복지학"
 doi: ""
 citekey: sineungyeong2020
+pdf: sineungyeong2020
+zotero: "zotero://select/items/@sineungyeong2020"
 keywords: [자기결정, 발달장애인, 척도개발, 사회복지사, 장애인복지관, 요인분석]
 methods: [척도개발, 초점집단인터뷰, 내용타당도검증, 탐색적요인분석, 확인적요인분석, 설문조사]
 population: [발달장애인, 사회복지사, 장애인복지관실무자, 발달장애인부모]

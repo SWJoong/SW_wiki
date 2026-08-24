@@ -5,6 +5,8 @@ year: 2023
 journal: "한국장애인복지학"
 doi: ""
 citekey: gimmiog2023
+pdf: gimmiog2023
+zotero: "zotero://select/items/@gimmiog2023"
 keywords: [지원의사결정, 발달장애인, 대체의사결정, 자기결정권, 장애인권리협약, 장애인복지실천, 좋은 실천]
 methods: [탐색적 연구, 문헌고찰, 국외제도 검토, 부모·종사자 인식조사]
 population: [발달장애인, 부모, 장애인복지종사자]
