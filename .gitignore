@@ -16,6 +16,9 @@ replit.nix
 # ── 원문 PDF는 절대 커밋하지 않음 (Zotero/심링크 레이어에서 관리) ──
 *.pdf
 
+# ── 초안 격리: inbox 는 로컬 전용(검토 전 AI 초안 · 승격 시 papers/로 이동해 PR) ──
+content/inbox/
+
 # ── OS · 편집기 잡파일 (Windows↔Ubuntu 공용) ────────
 .DS_Store
 Thumbs.db
