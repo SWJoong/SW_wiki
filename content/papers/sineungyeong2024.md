@@ -5,6 +5,8 @@ year: 2024
 journal: "보건사회연구"
 doi: "10.15709/hswr.2024.44.1.99"
 citekey: sineungyeong2024
+pdf: sineungyeong2024
+zotero: "zotero://select/items/@sineungyeong2024"
 keywords: [개인예산제, 개인별 지원계획, 욕구 평가, ICF, 자기주도성, 사람중심계획]
 methods: [문헌고찰, 도구비교분석, 가상사례적용, 방법론제안]
 population: [장애인, 발달장애인, 자폐성장애인]

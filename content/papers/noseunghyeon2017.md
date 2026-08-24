@@ -5,6 +5,8 @@ year: 2017
 journal: "대한보건연구"
 doi: ""
 citekey: noseunghyeon2017
+pdf: noseunghyeon2017
+zotero: "zotero://select/items/@noseunghyeon2017"
 keywords: [고령장애인, 생활만족도, 건강증진행위, 매개효과, 다중집단분석, 장애정체감, 가족지지]
 methods: [실증연구, 구조방정식모형, 매개효과분석, 다중집단분석]
 population: [고령장애인, 중증장애인, 경증장애인]
