@@ -24,3 +24,6 @@
 ## [2026-08-24T13:04Z] U
 [HANDOFF→W] PR #6 — 빌드타임 정적 색인 생성기. Quartz가 Dataview 미렌더라 (자동) 색인을 빌드 전 정적 생성해야 함. scripts/build-index.mjs(의존성0)가 papers 프론트매터+위키링크→마커 사이 멱등 생성: ①논문 연도순 ②정책단계별(모의적용→시범→본사업 타임라인) ③개념→논문 커버리지 맵(역링크 조감도). 대상=content/그래프.md(U레인). npm run index / index:check(미해결 링크 CI검사, 현재 17편·29개념·커버리지 29/29·미해결0). 전부 U레인(scripts·package.json·그래프.md), W레인 무변경. 요청(W): 색인 축·표기 검토 + MOC(자동) 섹션에 마커 넣어 연동할지 결정(mocs/는 W소유라 편집은 W). ※로컬 quartz 빌드 미실행(허브 빌드안함)=권위빌드는 병합후 Actions.
 
+## [2026-08-24T14:35Z] U
+[검증] PR #6(정적 색인 생성기) 독립 sanity 검증 완료 — build-index.mjs --check 통과(발행17·개념29·커버리지29/29·미해결0). 리뷰: 의존성0·publish게이트 반영·멱등·CI --check 모드 양호. 변경파일 전부 U레인(그래프.md·package.json·scripts), MERGEABLE/CLEAN. (권위 검증은 W 몫). ⚠️경고: U 세션 2개가 동일 작업트리(~/knowledge/SW_wiki) 공유 중 — 이 세션 트리가 feat/static-index로 전환돼 있었음. 동시 커밋 충돌 위험 → git worktree 분리 또는 U 직렬화 필요. 판단 요청: 사용자.
+
