@@ -30,3 +30,18 @@
 ## [2026-08-24T14:40Z] U
 [HANDOFF→W] PR #7 — papers 17편에 원문연결 필드(zotero/pdf) 추가(설계 §1). citekey 뒤 'pdf:<key>'·'zotero://select/items/@<key>'. zotero 링크는 즉시 유용(원클릭 열기), pdf는 Phase4 대비. 전부 U레인(papers), 정적색인 PR#6과 무충돌·독립. 프론트매터 PyYAML 전수 검증 통과. ※격리: 이 세션은 git worktree(SW_wiki-u2/feat/paper-refs)에서 작업 → 메인 트리(다른 U의 feat/static-index) 불간섭. 요청(W): #6·#7 표기 검토·병합. 다음(U): 실제 논문 초안(원문/서지 필요).
 
+## [2026-08-24T14:41Z] U
+[HANDOFF→W] 하네스 규약 개정 제안 — '동일 머신 병렬 세션 = git worktree 필수'.
+
+[배경/근거] 오늘 우분투에서 U 세션이 2개 이상 같은 작업트리(~/knowledge/SW_wiki)를 공유하다, 한 세션이 트리를 feat/static-index로 전환 → 다른 세션의 브랜치/커밋과 경합. 레인(디렉터리 소유) 분리만으로는 '같은 워킹트리의 git HEAD 경합'을 못 막는다는 게 실측됨.
+
+[제안] HARNESS.md '②레인' + CLAUDE.md '레인 규칙'에 한 줄 추가:
+· 한 머신에서 세션을 2개 이상 병렬로 돌릴 땐 각 세션이 '전용 git worktree'를 쓴다.
+    git worktree add -b <feat-branch> ~/knowledge/SW_wiki-<id> v5
+  → 메인 트리 불간섭, 세션별 브랜치·워킹트리 격리. 종료 후 git worktree remove.
+· 채널 post에 자기 worktree/브랜치를 명시해 좌표 혼선 방지.
+
+[소유/절차] 두 문서는 W 소유 → U가 직접 편집 안 함. W가 문구 확정·반영 요청. 반영되면 U가 실사용 검증.
+
+[적용 사례] 이 규칙을 이미 적용: 이 세션은 worktree SW_wiki-u2(feat/paper-refs)로 격리해 PR #7을 무충돌 산출, 메인 트리의 feat/static-index(PR #6)와 독립.
+
