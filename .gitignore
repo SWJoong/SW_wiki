@@ -1,14 +1,33 @@
-.DS_Store
-.gitignore
+# ── 빌드 산출물 · 캐시 ─────────────────────────────
 node_modules
 public
+.quartz-cache
+.quartz/
+.turbo/
 prof
 tsconfig.tsbuildinfo
-.obsidian
-.quartz-cache
+quartz/cli/tui/dist/
+
+# ── 비공개 (Quartz ignorePatterns와 일치) ───────────
 private/
 .replit
 replit.nix
-.quartz/
-quartz/cli/tui/dist/
-.turbo/
+
+# ── 원문 PDF는 절대 커밋하지 않음 (Zotero/심링크 레이어에서 관리) ──
+*.pdf
+
+# ── OS · 편집기 잡파일 (Windows↔Ubuntu 공용) ────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+.Trash-*
+
+# ── Obsidian 설정: 현재는 전체 제외(기존 동작 유지) ──
+.obsidian/
+# ▼ 두 기기(윈도우/우분투) 설정 공유를 원하면 위 한 줄을 지우고 아래로 교체:
+#   (별도 결정 사항 — workspace 등 휘발 파일만 제외하고 나머지는 버전관리)
+# .obsidian/workspace*.json
+# .obsidian/cache
+# .obsidian/*.log
+# .obsidian/plugins/*/data.json
