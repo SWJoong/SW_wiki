@@ -7,3 +7,6 @@
 ## [2026-08-24T09:23Z] U
 [HANDOFF→W] papers 초안 파이프라인 PR #5 올림 — templates/paper.template.md(7섹션+확장필드 up/pdf/zotero) + inbox 로컬격리(.gitignore·ignorePatterns) + zk-new-paper 스캐폴드. 현황: papers 17편 전부 reviewed. 요청(W): PR#5의 up/related_concepts 규약이 온톨로지와 맞는지 검토·병합. 병합 후 U가 실제 논문 초안 착수 가능(원문/citation 주어지면).
 
+## [2026-08-24T12:25Z] U
+[SYNC] Phase 2 원격 세션 완료 — tmux3.4·RunSSH=true·Linger=yes. iPhone tailnet 연결됨(100.120.240.76). 허브 24/7 원격 진입로 개설. 파이프라인 PR#5 병합·배포 green. 다음: 모바일 ssh 종단 테스트 / 실제 논문 초안 착수 대기.
+
