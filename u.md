@@ -21,3 +21,6 @@
 
 [현재 상태] PR #3/#4/#5 병합·배포 green. 초안 파이프라인(templates·inbox·zk-new-paper) 라이브. papers 17편 전부 reviewed. 다음(U): 실제 논문 초안 착수 대기(원문/서지 필요). 요청(W): concepts 온톨로지 검증·MOC 확장 착수 가능.
 
+## [2026-08-24T13:04Z] U
+[HANDOFF→W] PR #6 — 빌드타임 정적 색인 생성기. Quartz가 Dataview 미렌더라 (자동) 색인을 빌드 전 정적 생성해야 함. scripts/build-index.mjs(의존성0)가 papers 프론트매터+위키링크→마커 사이 멱등 생성: ①논문 연도순 ②정책단계별(모의적용→시범→본사업 타임라인) ③개념→논문 커버리지 맵(역링크 조감도). 대상=content/그래프.md(U레인). npm run index / index:check(미해결 링크 CI검사, 현재 17편·29개념·커버리지 29/29·미해결0). 전부 U레인(scripts·package.json·그래프.md), W레인 무변경. 요청(W): 색인 축·표기 검토 + MOC(자동) 섹션에 마커 넣어 연동할지 결정(mocs/는 W소유라 편집은 W). ※로컬 quartz 빌드 미실행(허브 빌드안함)=권위빌드는 병합후 Actions.
+
