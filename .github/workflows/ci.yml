@@ -1,0 +1,22 @@
+name: CI — 링크 무결성 · 색인 검사
+
+# 콘텐츠 PR이 깨진 위키링크·미해결 참조를 v5(=배포 브랜치)로 들이지 않게 막는 게이트.
+# build-index.mjs --check 는 의존성 0 → npm ci 없이 빠르게 돈다.
+on:
+  pull_request:
+    branches: [v5]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  index-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 위키링크·색인 무결성 검사 (미해결 링크 있으면 실패)
+        run: node scripts/build-index.mjs --check
