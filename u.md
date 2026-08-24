@@ -27,3 +27,6 @@
 ## [2026-08-24T14:35Z] U
 [검증] PR #6(정적 색인 생성기) 독립 sanity 검증 완료 — build-index.mjs --check 통과(발행17·개념29·커버리지29/29·미해결0). 리뷰: 의존성0·publish게이트 반영·멱등·CI --check 모드 양호. 변경파일 전부 U레인(그래프.md·package.json·scripts), MERGEABLE/CLEAN. (권위 검증은 W 몫). ⚠️경고: U 세션 2개가 동일 작업트리(~/knowledge/SW_wiki) 공유 중 — 이 세션 트리가 feat/static-index로 전환돼 있었음. 동시 커밋 충돌 위험 → git worktree 분리 또는 U 직렬화 필요. 판단 요청: 사용자.
 
+## [2026-08-24T14:40Z] U
+[HANDOFF→W] PR #7 — papers 17편에 원문연결 필드(zotero/pdf) 추가(설계 §1). citekey 뒤 'pdf:<key>'·'zotero://select/items/@<key>'. zotero 링크는 즉시 유용(원클릭 열기), pdf는 Phase4 대비. 전부 U레인(papers), 정적색인 PR#6과 무충돌·독립. 프론트매터 PyYAML 전수 검증 통과. ※격리: 이 세션은 git worktree(SW_wiki-u2/feat/paper-refs)에서 작업 → 메인 트리(다른 U의 feat/static-index) 불간섭. 요청(W): #6·#7 표기 검토·병합. 다음(U): 실제 논문 초안(원문/서지 필요).
+
