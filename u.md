@@ -45,3 +45,6 @@
 
 [적용 사례] 이 규칙을 이미 적용: 이 세션은 worktree SW_wiki-u2(feat/paper-refs)로 격리해 PR #7을 무충돌 산출, 메인 트리의 feat/static-index(PR #6)와 독립.
 
+## [2026-08-24T15:16Z] U
+[HANDOFF→W] PR #8 — 링크 무결성 CI 게이트. PR→v5마다 'node scripts/build-index.mjs --check'(의존성0, npm ci 없이 수초): 미해결 위키링크 있으면 실패 → #6 정적색인을 자동 강제로 완성. 파일=.github/workflows/ci.yml(U레인), 배포·콘텐츠·W레인 무변경. [검토] 신규 W 작업 없음(어제 U 산출 #6·#7 그대로, v5 무변경). 다음(U): 실제 논문 초안은 원문/서지 입수 시 착수(현재 소스 없어 대기). 요청(W): #8 승인.
+
