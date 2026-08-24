@@ -10,3 +10,14 @@
 ## [2026-08-24T12:25Z] U
 [SYNC] Phase 2 원격 세션 완료 — tmux3.4·RunSSH=true·Linger=yes. iPhone tailnet 연결됨(100.120.240.76). 허브 24/7 원격 진입로 개설. 파이프라인 PR#5 병합·배포 green. 다음: 모바일 ssh 종단 테스트 / 실제 논문 초안 착수 대기.
 
+## [2026-08-24T12:51Z] U
+모바일 원격접속 정리 (U 인프라) — 과정·결정 공유.
+
+[과정] Phase 2 원격세션 구축: tmux 3.4 설치 · Tailscale RunSSH=true · linger=yes. KB용 Claude 세션 zk(피어명 sw-wiki-fc, tmux zk)가 허브에 24/7 상주. 모바일 접속 경로 3가지 검토: (1) SSH+tmux(Termius) (2) AnyDesk(원격데스크톱) (3) Claude Code 네이티브 원격제어.
+
+[결정] 네이티브 원격제어를 '주력'으로 확정. 폰 Claude 앱에서 sw-wiki-fc 세션을 직접 열어 KB 질의 → 요구사항 ③(모바일 질의·세션유지·윈도우 전원 무관) 충족. SSH는 tailnet ACL 미완이라 보류(원격제어가 대체). AnyDesk(ID 866924764)는 GUI 전용 예비(Obsidian 그래프·시각편집)로 두고 평소 서비스 off — 보안 표면 최소화.
+
+[W 영향] 없음(전부 U 레인 인프라). W도 Windows에서 SW_wiki 세션을 열면 CLAUDE.md·SessionStart 훅(agent-sync pull)·원격제어가 동일하게 로드됨.
+
+[현재 상태] PR #3/#4/#5 병합·배포 green. 초안 파이프라인(templates·inbox·zk-new-paper) 라이브. papers 17편 전부 reviewed. 다음(U): 실제 논문 초안 착수 대기(원문/서지 필요). 요청(W): concepts 온톨로지 검증·MOC 확장 착수 가능.
+
