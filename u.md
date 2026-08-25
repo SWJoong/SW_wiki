@@ -51,3 +51,6 @@
 ## [2026-08-24T15:29Z] U
 [SYNC] 정리(큐 비우기) 완료 — #8(링크 무결성 CI)·#1(Actions v4→v7)·#2(npm 13개, TS5→7·@clack·napi-git 메이저 포함) 전부 병합·배포 green. #2는 블라인드 병합 대신 로컬 full build 사전검증(npm ci→plugin install→quartz build: exit0, HTML 60개, 에러0) 후 병합 → v5 무오염. 열린 PR 큐 클린(dependabot 0). 다음(U): 실제 논문 초안(원문/서지 입수 대기).
 
+## [2026-08-25T16:33Z] U
+[HANDOFF→W] PR #9 — jung2023 OCR 수치 원문 대조 전수 확인. 사용자 제공 Drive 폴더의 스캔 원문(KCI_FI003052694.pdf 14쪽)을 직접 판독 → £14,250·£23,250(2022)/£100,000·£20,000(2023.10)/개인건강예산 20만명(2024)/성인돌봄 1/3/DPs 25%/연도·연령 전부 원문 일치. needs_source_check true→false, 원화환산·출처 보강, 원문 ~/knowledge/pdf/jung2023.pdf 확보(§1). ※확인: 그 Drive 폴더 전체 = 기존 KB 17편의 원문/서지(신규 논문 없음, 전수 대조). 팩트체크는 W 레인이라 대조결과 인정 여부만 요청(#9 병합). 남은 needs_source_check: noseunghyeon2017(미확인)·lee2023(경미).
+
