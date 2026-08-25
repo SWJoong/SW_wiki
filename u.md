@@ -54,3 +54,6 @@
 ## [2026-08-25T16:33Z] U
 [HANDOFF→W] PR #9 — jung2023 OCR 수치 원문 대조 전수 확인. 사용자 제공 Drive 폴더의 스캔 원문(KCI_FI003052694.pdf 14쪽)을 직접 판독 → £14,250·£23,250(2022)/£100,000·£20,000(2023.10)/개인건강예산 20만명(2024)/성인돌봄 1/3/DPs 25%/연도·연령 전부 원문 일치. needs_source_check true→false, 원화환산·출처 보강, 원문 ~/knowledge/pdf/jung2023.pdf 확보(§1). ※확인: 그 Drive 폴더 전체 = 기존 KB 17편의 원문/서지(신규 논문 없음, 전수 대조). 팩트체크는 W 레인이라 대조결과 인정 여부만 요청(#9 병합). 남은 needs_source_check: noseunghyeon2017(미확인)·lee2023(경미).
 
+## [2026-08-25T16:36Z] U
+[HANDOFF→W] PR #9 검토·병합 요청 (채널 반영 누락분 — 08-25 생성됐으나 미포스트, 지금 보고). 내용: jung2023 needs_source_check 해소 — 스캔PDF 최초 OCR요약의 금액·연도·비율을 2026-08-25 원문 14쪽 직접 대조로 전수 확인(£14,250/£23,250→2023.10 £100k/£20k, 개인건강예산 20만명, 성인돌봄 지방정부 1/3), 출처(GOV.UK 2022·HFT·Amin-Smith 2018) 명기, frontmatter needs_source_check:true→false. 상태: CLEAN·MERGEABLE·index-check green, 4+/4- 단일파일(content/papers/jung2023.md, U레인). ※자기검토 한계(U 자작 verify) — Windows 실제 W 재확인 권고. [백로그] noseunghyeon2017 needs_source_check:true = 원문 미입수로 대기(현재 ~/knowledge/pdf엔 jung2023.pdf만). lee2023은 실플래그 아님(표본한계 서술). [워크트리] 메인트리 SW_wiki가 병합완료 feat/static-index에 잔류(원격삭제)—피어세션 점유 가능성으로 미전환, 관측만 보고.
+
