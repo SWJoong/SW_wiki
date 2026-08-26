@@ -4,9 +4,8 @@ authors: "윤민석, 변금선, 이영주"
 year: 2022
 journal: "서울연구원"
 doi: ""
+not_applicable: [doi]
 citekey: yunminseog2022
-pdf: yunminseog2022
-zotero: "zotero://select/items/@yunminseog2022"
 keywords: [장애인 1인가구, 주거지원, 지원기준 정립, 지원체계 구축, 서울시, 탈시설, 활동지원서비스]
 methods: [2차자료분석, 질적면담조사, 실태분석, 정책연구보고]
 population: [장애인 1인가구, 중증장애인, 지체·뇌병변장애인, 고령장애인]
