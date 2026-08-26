@@ -3,10 +3,8 @@ title: "개인예산제도에 대한 국내 장애계 논쟁의 프레임 분석
 authors: "안형진, 진형식"
 year: 2023
 journal: "한국장애인복지학"
-doi: ""
+doi: "10.22779/kadw.2023.62.62.85"
 citekey: anhyeongjin2023
-pdf: anhyeongjin2023
-zotero: "zotero://select/items/@anhyeongjin2023"
 keywords: [개인예산제, 프레임분석, 자기주도지원, 사람중심실천, 복지서비스 시장화, 공공성, 개별유연화]
 methods: [프레임분석, 담론분석, 문헌고찰]
 population: [장애인, 발달장애인, 장애인단체]

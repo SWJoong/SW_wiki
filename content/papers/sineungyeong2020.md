@@ -3,10 +3,8 @@ title: "장애인복지관 실무자를 위한 발달장애인의 자기결정 �
 authors: "신은경, 김동기, 이웅, 손다진"
 year: 2020
 journal: "한국장애인복지학"
-doi: ""
+doi: "10.22779/kadw.2020.50.50.199"
 citekey: sineungyeong2020
-pdf: sineungyeong2020
-zotero: "zotero://select/items/@sineungyeong2020"
 keywords: [자기결정, 발달장애인, 척도개발, 사회복지사, 장애인복지관, 요인분석]
 methods: [척도개발, 초점집단인터뷰, 내용타당도검증, 탐색적요인분석, 확인적요인분석, 설문조사]
 population: [발달장애인, 사회복지사, 장애인복지관실무자, 발달장애인부모]

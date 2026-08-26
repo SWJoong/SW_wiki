@@ -1,8 +1,8 @@
 ---
 concept_ko: NDIS
 synonyms: [국가장애보험제도, National Disability Insurance Scheme, 호주 국가장애보험]
-parent_concept: 개인예산제
-related_concepts: [개인예산제, 개별유연화, 자원 할당 시스템, 직접지불제도]
+parent_concept: "[[개인예산제]]"
+related_concepts: ["[[개인예산제]]", "[[개별유연화]]", "[[자원 할당 시스템]]", "[[직접지불제도]]"]
 status: stub
 tags:
   - concept
@@ -13,13 +13,13 @@ publish: true
 호주가 2013년 도입한 연방 단위의 국가장애보험제도(National Disability Insurance Scheme). 완전 통합예산·시장 중심 서비스 공급·참여자 주도 계획 수립을 동시에 적용해 개인예산제의 핵심 원리를 가장 포괄적으로 실현한 사례로 평가된다. [[moon2025]]
 
 ## 이론적 배경
-<!-- 2011 호주 생산성위원회 보고서, 2013 NDIS Act. 유사시장(quasi-market) 구조. (stub) -->
+NDIS는 2011년 호주 생산성위원회의 권고를 거쳐 2013년 국가장애보험법(NDIS Act)으로 도입된 연방 단위 제도로, 완전 통합예산·시장 중심 공급·참여자 주도 계획을 결합한 유사시장(quasi-market) 구조다. [[moon2025]]는 NDIS를 개인예산제의 핵심 원리를 가장 포괄적으로 실현한 사례로 보면서도, 이 구조가 ①예산 통합 vs 통제, ②시장 자율성 vs 품질 보장, ③당사자 선택권 vs 실질적 지원이라는 세 가지 구조적 딜레마를 필연적으로 내재한다고 분석한다. [[gimdonggi2023]] 역시 NDIS를 연방 NDIA가 운영하는 전국 표준 틀로 정리하며 영국 personal budgets와 비교한다.
 
 ## 한국 정책 맥락
-<!-- 2023~2024 NDIS 개혁(비용 급증·품질 편차·행정부담)과 한국 도입 시점의 중첩 → 시차적 학습(temporal learning)의 참조 사례. (stub) -->
+[[moon2025]]는 NDIS가 10년 운영 끝에 비용 급증·품질 편차·행정 부담 등의 문제로 2023년 독립검토와 2024년 법 개정을 통해 재설계에 들어간 시점과, 한국의 개인예산제 도입 시점이 겹친다는 데 주목한다. 저자들은 한국이 NDIS의 시행착오를 사후에 모방하지 말고 사전에 흡수하는 '시차적 학습(temporal learning)'의 기회를 살려, 적응적 경계 관리·선제적 제공자 관리·차등 지원·통제와 자율의 단계적 조정을 서울형 개인예산제에 반영할 것을 제언한다.
 
 ## 동의어·관련 표현
-<!-- 국가장애보험제도, National Disability Insurance Scheme. 운영기관은 NDIA. -->
+국가장애보험제도(National Disability Insurance Scheme)로, 운영기관은 NDIA다. [[개인예산제]]의 대표적 해외 사례이며, [[개별유연화]]·[[자원 할당 시스템]]·[[직접지불제도]] 논의의 준거로 자주 인용된다.
 
 ## 등장 논문
 

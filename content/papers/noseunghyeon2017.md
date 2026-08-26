@@ -3,16 +3,13 @@ title: "고령장애인의 건강증진 장벽요인 및 촉진요인이 생활�
 authors: "노승현, 김정석, 신유리"
 year: 2017
 journal: "대한보건연구"
-doi: ""
+doi: "10.22900/kphr.2017.43.3.006"
 citekey: noseunghyeon2017
-pdf: noseunghyeon2017
-zotero: "zotero://select/items/@noseunghyeon2017"
 keywords: [고령장애인, 생활만족도, 건강증진행위, 매개효과, 다중집단분석, 장애정체감, 가족지지]
 methods: [실증연구, 구조방정식모형, 매개효과분석, 다중집단분석]
 population: [고령장애인, 중증장애인, 경증장애인]
 policy_stage: [근거생성, 정책제언]
 status: reviewed
-needs_source_check: true
 tags:
   - paper
 publish: true

@@ -4,9 +4,8 @@ authors: "한국장애인개발원"
 year: 2025
 journal: "한국장애인개발원"
 doi: ""
+not_applicable: [doi]
 citekey: hangugjangaeingaebalweon2025
-pdf: hangugjangaeingaebalweon2025
-zotero: "zotero://select/items/@hangugjangaeingaebalweon2025"
 keywords: [장애인주간이용시설, 기능다변화, 낮활동서비스, 중증화·고령화, 준의료적지원, 장애유형별특성화]
 methods: [혼합연구, 문헌·정책분석, 사례조사, 질적조사, 양적조사, 법률검토]
 population: [발달장애인, 뇌병변장애인, 감각장애인, 중고령장애인, 이용자가족]
