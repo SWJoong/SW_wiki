@@ -3,7 +3,7 @@ concept_ko: NDIS
 synonyms: [국가장애보험제도, National Disability Insurance Scheme, 호주 국가장애보험]
 parent_concept: "[[개인예산제]]"
 related_concepts: ["[[개인예산제]]", "[[개별유연화]]", "[[자원 할당 시스템]]", "[[직접지불제도]]"]
-status: stub
+status: reviewed
 tags:
   - concept
 publish: true

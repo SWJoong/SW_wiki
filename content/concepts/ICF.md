@@ -3,7 +3,7 @@ concept_ko: ICF
 synonyms: [국제기능·장애·건강분류, 국제기능장애건강분류, International Classification of Functioning Disability and Health]
 parent_concept: 
 related_concepts: ["[[욕구 평가]]", "[[개인별 지원계획]]"]
-status: stub
+status: reviewed
 tags:
   - concept
 publish: true
