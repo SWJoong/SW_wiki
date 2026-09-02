@@ -14,8 +14,9 @@
 // 규칙: publish:true 인 논문만 색인(비공개/초안 링크가 사이트에서 깨지지 않도록).
 import { readFileSync, writeFileSync, readdirSync, existsSync } from "node:fs";
 import { join, basename } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const ROOT = new URL("..", import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL("..", import.meta.url));
 const PAPERS_DIR = join(ROOT, "content/papers");
 const CONCEPTS_DIR = join(ROOT, "content/concepts");
 
